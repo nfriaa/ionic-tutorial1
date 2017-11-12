@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Exemple2 : Les listes</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <p>Liste statique :</p>
+  <ion-list inset>
+    <button ion-item>aa</button>
+    <button ion-item>bb</button>
+    <button ion-item>cc</button>
+  </ion-list>
+
+  <p>Liste dynamique (à partir d'un tableau) :</p>
+  <ion-list >
+    <button ion-item *ngFor="let item of items">
+      {{item.title}}
+    </button>
+  </ion-list>
+
+</ion-content>

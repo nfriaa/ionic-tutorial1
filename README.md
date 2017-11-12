@@ -14,7 +14,7 @@ ionic serve
 ```
 Cette instruction ouvre une page `http://localhost:8100/` dans le navigateur dans la quelle on peut tester le fonctionnement de notre application.
 
-# Ajouter une nouvelle page :
+# Ajouter une nouvelle page Exemple1
 Pour ajouter une nouvelle page on va utiliser Ionic CLI :
 ```sh
 ionic generate page Exemple1
@@ -57,3 +57,11 @@ this.pages = [
     ];
 ```
 Et voilà ! 
+
+# Exemple 2 : listes
+Ajouter une nouvelle page à l'aide d'Ionic CLI :
+```sh
+ionic generate page Exemple1
+```
+Puis déclarer cette nouvelle page dans les fichiers `src/app/app.module.ts` et `src/app/app.component.ts`
+

@@ -26,9 +26,9 @@ export class Exemple1Page {
    */
   doAlert() {
     let alert = this.alertCtrl.create({
-      title: "New Friend!",
+      title: "Bravo !",
       subTitle:
-        "Your friend, Obi wan Kenobi, just accepted your friend request!",
+        "Vous venez d'ouvrir une alerte avec Ionic !",
       buttons: ["OK"]
     });
     alert.present();

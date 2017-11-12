@@ -9,17 +9,20 @@
 
 
 <ion-content padding>
-  <h2>Généralités</h2> 
+  <h2>Généralités</h2>
   <p>
     Texte et contenu ici...
   </p>
 
-  <button ion-button block color="dark" (click)="doAlert()">Afficher une alerte</button>
-  
-      <br/>
-  
-      <button ion-button color="success" (click)="goToOtherPage()">
-        Aller à une autre page...
-      </button>
+  <button ion-button block color="secondary" (click)="doAlert()">Afficher une alerte</button>
+
+  <br/>
+
+  <button ion-button color="danger" (click)="goToOtherPage()">Aller à une autre page >></button>
+
+  <br/><br/> Autres boutons :<br/>
+  <button ion-button color="light">Light</button>
+  <button ion-button>Default</button>
+  <button ion-button color="dark">Dark</button>
 
 </ion-content>
