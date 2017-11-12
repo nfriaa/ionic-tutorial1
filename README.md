@@ -56,4 +56,4 @@ this.pages = [
       { title: 'Exemple1', component: Exemple1Page }
     ];
 ```
-Et voilà !
+Et voilà ! 
