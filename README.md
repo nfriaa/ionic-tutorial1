@@ -2,4 +2,4 @@
 Ionic tutorial1 : getting started
 
 # Installations
-node + npm...
+node + npm
