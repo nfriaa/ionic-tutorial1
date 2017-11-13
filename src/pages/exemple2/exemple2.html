@@ -18,7 +18,16 @@
 
   <p>Liste dynamique (à partir d'un tableau) :</p>
   <ion-list >
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+    <button ion-item *ngFor="let item of items" (click)="itemsTapped($event, item)"> 
+      {{item.title}}
+    </button>
+  </ion-list>
+
+
+  <p>Liste dynamique détaillée (à partir d'un tableau) :</p>
+  <ion-list>
+    <button ion-item *ngFor="let item of sports" (click)="sportsTapped($event, item)">
+      <ion-icon [name]="item.icon" item-start></ion-icon>
       {{item.title}}
     </button>
   </ion-list>

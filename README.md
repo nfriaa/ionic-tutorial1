@@ -10,7 +10,7 @@ Ionic tutorial1 : "getting started" présentation de quelques fonctionnalités d
 ![](https://img.shields.io/badge/typescript-latest-green.svg)
 ![](https://img.shields.io/badge/editor-vscode-yellow.svg)
 
-# Installer et exécuter cette application en local
+# Tester cette application en local
 ```sh
 git clone https://github.com/nfriaa/ionic-tutorial1.git
 cd ionic-tutorial1
@@ -76,9 +76,30 @@ this.pages = [
 Et voilà ! 
 
 # Exemple 2 : listes
-Ajouter une nouvelle page à l'aide d'Ionic CLI :
+- Ajouter une nouvelle page à l'aide d'Ionic CLI :
 ```sh
 ionic generate page Exemple1
 ```
-Puis déclarer cette nouvelle page dans les fichiers `src/app/app.module.ts` et `src/app/app.component.ts`
+- Puis déclarer cette nouvelle page dans les fichiers `src/app/app.module.ts` et `src/app/app.component.ts`.
+- Ensuite dans le fichier `src/pages/exemple2/exemple2.html` ajouter :
+```html
+<ion-list >
+    <button ion-item *ngFor="let item of items">
+      {{item.title}}
+    </button>
+</ion-list> 
+```
+- Il faut maintneant déclarer et initialiser le tableau items dans le fichier `src/pages/exemple2/exemple2.ts` :
+```ts
+// dans la partie 'attributs' de la classe :
+items: Array<{ title: string }>;
 
+// dans le constructeur :
+this.items = [];
+this.items.push({ title: "DD" });
+this.items.push({ title: "EE" });
+this.items.push({ title: "FF" });
+this.items.push({ title: "GG" });
+```
+
+D'autres exemples sont présents dans cette application : afficher une alerte si on clic sur un item, ou afficher une autre page... 
