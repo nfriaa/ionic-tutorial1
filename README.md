@@ -10,7 +10,7 @@ Ionic tutorial1 : "getting started" présentation de quelques fonctionnalités d
 ![](https://img.shields.io/badge/typescript-latest-green.svg)
 ![](https://img.shields.io/badge/editor-vscode-yellow.svg)
 
-# Tester cette application en local
+## Tester cette application en local
 ```sh
 git clone https://github.com/nfriaa/ionic-tutorial1.git
 cd ionic-tutorial1
@@ -18,20 +18,20 @@ npm install
 ionic serve
 ```
 
-# Créer une nouvelle application ionic
+## Créer une nouvelle application ionic
 ```sh
 ionic start ionic-tutorial1 sidemenu
 ```
 Plusieurs autres templates sont disponibles pour créer un nouveau projet (tabs : pour une application basée sur les onglets, blank, super ou tutorial)
 
-# Démarrer l'application et tester dans un navigateur
+## Démarrer l'application et tester dans un navigateur
 ```sh
 cd ionic-tutorial1
 ionic serve
 ```
 Cette instruction ouvre une page `http://localhost:8100/` dans le navigateur dans la quelle on peut tester le fonctionnement de notre application.
 
-# Ajouter une nouvelle page Exemple1
+## Ajouter une nouvelle page Exemple1
 Pour ajouter une nouvelle page on va utiliser Ionic CLI :
 ```sh
 ionic generate page Exemple1
@@ -75,7 +75,7 @@ this.pages = [
 ```
 Et voilà ! 
 
-# Exemple 2 : listes
+## Exemple 2 : listes
 - Ajouter une nouvelle page à l'aide d'Ionic CLI :
 ```sh
 ionic generate page Exemple1
@@ -102,4 +102,4 @@ this.items.push({ title: "FF" });
 this.items.push({ title: "GG" });
 ```
 
-D'autres exemples sont présents dans cette application : afficher une alerte si on clic sur un item, ou afficher une autre page... 
+D'autres exemples sont présents dans cette application : afficher une alerte si on clic sur un item, ou afficher une autre page, afficher une note dans la console, tableau d'objets ...etc. 
