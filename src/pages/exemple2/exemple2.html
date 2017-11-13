@@ -18,7 +18,7 @@
 
   <p>Liste dynamique (à partir d'un tableau) :</p>
   <ion-list >
-    <button ion-item *ngFor="let item of items">
+    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
       {{item.title}}
     </button>
   </ion-list>

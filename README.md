@@ -1,5 +1,22 @@
 # ionic-tutorial1
-Ionic tutorial1 : getting started
+Ionic tutorial1 : "getting started" présentation de quelques fonctionnalités de base
+
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg?style=flat)](https://github.com/nfriaa/ionic-tutorial1/issues) [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://github.com/nfriaa/ionic-tutorial1) [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nfriaa/ionic-tutorial1/blob/master/LICENSE)
+
+![](https://img.shields.io/badge/node-8-red.svg)
+![](https://img.shields.io/badge/npm-5-blue.svg)
+![](https://img.shields.io/badge/ionic-3-ff69b4.svg)
+![](https://img.shields.io/badge/angular-4-orange.svg)
+![](https://img.shields.io/badge/typescript-latest-green.svg)
+![](https://img.shields.io/badge/editor-vscode-yellow.svg)
+
+# Installer et exécuter cette application en local
+```sh
+git clone https://github.com/nfriaa/ionic-tutorial1.git
+cd ionic-tutorial1
+npm install
+ionic serve
+```
 
 # Créer une nouvelle application ionic
 ```sh
