@@ -6,7 +6,7 @@ Ionic tutorial1 : "getting started" présentation de quelques fonctionnalités d
 ![](https://img.shields.io/badge/node-8-red.svg)
 ![](https://img.shields.io/badge/npm-5-blue.svg)
 ![](https://img.shields.io/badge/ionic-3-ff69b4.svg)
-![](https://img.shields.io/badge/angular-4-orange.svg)
+![](https://img.shields.io/badge/angular-5-orange.svg)
 ![](https://img.shields.io/badge/typescript-latest-green.svg)
 ![](https://img.shields.io/badge/editor-vscode-yellow.svg)
 
